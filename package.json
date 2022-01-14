@@ -1,0 +1,31 @@
+{
+  "name": "dwg-reader",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "buildDemo": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "shiqifeng <shiqifeng@boe.com.cn>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@wemap/rollup-plugin-arraybuffer": "^0.1.2",
+    "arraybuffer-loader": "^1.0.8",
+    "copy-webpack-plugin": "^5.0.0",
+    "css-loader": "^5.2.6",
+    "less": "^4.1.1",
+    "less-loader": "5",
+    "rollup": "^2.56.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "style-loader": "2",
+    "uglify-es": "^3.3.9",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "worker-loader": "^3.0.8"
+  }
+}
